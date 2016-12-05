@@ -1,33 +1,44 @@
-# Java Coffee v1.0
+# Java Coffee v1.1
 
 #### Java Study Note  
 ----------- 
 ![JavaLogo](http://www.javaguru.co/wp-content/uploads/2015/02/java.jpg)
 	
-	ÀÌ ¹®¼­´Â ÇÊÀÚÀÇ NoteÀÌÀÚ, Java ¹®¹ýÀ» ½±°í ÀÚ¼¼ÇÏ°Ô ¾Ë·ÁÁÖ´Â °ÍÀ» ¸ñÀûÀ¸·Î ÇÑ ºñ¿µ¸® 
-	±âº»¼­ÀÔ´Ï´Ù.
+Java ë¬¸ë²•ì„ ì‰½ê³  ìžì„¸í•˜ê²Œ ì•Œë ¤ì£¼ëŠ” ê²ƒì„ ëª©ì ìœ¼ë¡œ í•œ ë¹„ì˜ë¦¬ ê¸°ë³¸ì„œìž…ë‹ˆë‹¤.
+
+Opentutorials.org (ìƒí™œì½”ë”©)ì˜ 
+
+í”„ë¡œê·¸ëž˜ë¨¸ë“¤ì´ ì´ë£©í•œ ì„±ì·¨ë¥¼ ì¼ë°˜ì— ì•Œë ¤ì„œ ê³ ë…í•œ í”„ë¡œê·¸ëž˜ë¨¸ë“¤ì˜ ê´€ê°ì„ ëª¨ê°í•˜ëŠ” í™œë™
+
+ìŠ¬ë¡œê±´ì— ê°ëª…ì„ ë°›ì•„ ì œìž‘í•©ë‹ˆë‹¤. 
+í•„ìž ë˜í•œ Javaì˜ ì„¸ìƒì—ì„œ í•œê±¸ìŒì”© ë‚˜ì•„ê°€ê³  ìžˆëŠ” ì‚¬ëžŒì˜ ê´€ì ìœ¼ë¡œ ê¸°ë¡í•©ë‹ˆë‹¤.
+
+ì´ ê¸°ë³¸ì„œì˜ ëª©í‘œëŠ” Coffeeë¥¼ ë§ˆì‹œë“¯ ì´ˆì‹¬ìžì—ê²Œ ë¶€ë‹´ì—†ì´, í•˜ì§€ë§Œ coffeeì˜ í–¥ì„ ì§„í•˜ê²Œ 
+ëŠë¼ì‹¤ ìˆ˜ ìžˆë„ë¡ ìƒì„¸í•œ ì„¤ëª…ì„ ê¸°ë¡ í•˜ì˜€ìŠµë‹ˆë‹¤. 
+
+íŒ¨ìŠ¤íŠ¸ìº í¼ìŠ¤ ì•ˆë“œë¡œì´ë“œ ìŠ¤ì¿¨ Java ê°•ì˜ (ê°•ì‚¬ ê³ ëˆí˜¸ë‹˜)
+[http://www.fastcampus.co.kr/dev_school_ads/](http://www.fastcampus.co.kr/dev_school_ads/)
+
+ìƒí™œì½”ë”© Egoingë‹˜ì˜ Java ê°•ì˜
+[https://opentutorials.org/course/1223](https://opentutorials.org/course/1223)
+
+ìœ¤ì„±ìš°ë‹˜ì˜ 'ë‚œ ì •ë§ Javaë¥¼ ê³µë¶€í•œ ì ì´ ì—†ë‹¤êµ¬ìš”' ê°•ì˜ 
+[http://www.orentec.co.kr/teachlist/JAVA_BASIC_1/teach_sub1.php](http://www.orentec.co.kr/teachlist/JAVA_BASIC_1/teach_sub1.php)
+
+ìœ„ì— ë‚˜ì—´í•œ ê°•ì˜ë“¤ì˜ ìž¥ì , í•µì‹¬ë“¤ë§Œì„ ëª¨ì•„ ìˆœë„ 90%ì˜ Java Coffeeë¥¼ ë§Œë“¤ì—ˆìŠµë‹ˆë‹¤.
 	
-	Opentutorials.org (»ýÈ°ÄÚµù)ÀÇ ¸ñÇ¥ÀÎ 
-	
-	ÇÁ·Î±×·¡¸ÓµéÀÌ ÀÌ·èÇÑ ¼ºÃë¸¦ ÀÏ¹Ý¿¡ ¾Ë·Á¼­ °íµ¶ÇÑ ÇÁ·Î±×·¡¸ÓµéÀÇ °ü°´À» ¸ð°´ÇÏ´Â È°µ¿¿¡
-	
-	°¨¸íÀ» ¹Þ¾Æ Á¦ÀÛÇÕ´Ï´Ù. 
-	ÇÊÀÚ ¶ÇÇÑ JavaÀÇ ¼¼»ó¿¡¼­ ÇÑ°ÉÀ½¾¿ ³ª¾Æ°¡°í ÀÖ´Â »ç¶÷ÀÇ °üÁ¡À¸·Î ±â·ÏÇÕ´Ï´Ù.
-	
-	ÀÌ ¹®¼­ÀÇ ¸ñÇ¥´Â Coffee¸¦ ¸¶½Ãµí ÃÊ½ÉÀÚ¿¡°Ô ºÎ´ã¾øÀÌ, ÇÏÁö¸¸ coffeeÀÇ ÇâÀ» ÁøÇÏ°Ô 
-	´À³¢½Ç ¼ö ÀÖµµ·Ï »ó¼¼ÇÑ ¼³¸íÀ» ±â·Ï ÇÏ¿´½À´Ï´Ù. 
-	
-	±×¸®°í »ýÈ°ÄÚµù Egoing´ÔÀÇ Java °­ÀÇ + À±¼º¿ì´ÔÀÇ '³­ Á¤¸» Java¸¦ °øºÎÇÑ ÀûÀÌ ¾ø´Ù±¸¿ä' °­ÀÇÀÇ 
-	ÀåÁ¡µé¸¸À» ¸ð¾Æ ¼øµµ 90%ÀÇ Java Coffee¸¦ ¸¸µé¾ú½À´Ï´Ù.
-	
-	ÃÊ½ÉÀÚ¿¡°Ô´Â ÃÊ½ÉÀÚ¿¡°Ô ¸Â´Â ÀÌÇØ¿Í ¼³¸íÀÌ ÇÊ¿äÇÕ´Ï´Ù. 
-	½Ã°£ÀÌ Áö³ª°í °æÇèÄ¡°¡ ½×ÀÌ¸é ±× ¼³¸íµéÀº ·¹°íºí·°À» Á¶¸³ÇÏµíÀÌ ´Ù½Ã Á¶¸³µÇ°í, 
-	»õ·ÎÀÌ ÀÌÇØÇÏ°Ô µË´Ï´Ù. ÀÌ °üÁ¡¿¡¼­ ÀÌ ¹®¼­µµ Áö¼ÓÀûÀ¸·Î Update °èÈ¹ÀÌ ÀÖ½À´Ï´Ù.
-	
-	Copyright by Minsik, Kim (Referenced Opentutorials, Orentec)
+ì´ˆì‹¬ìžì—ê²ŒëŠ” ì´ˆì‹¬ìžì—ê²Œ ë§žëŠ” ì´í•´ì™€ ì„¤ëª…ì´ í•„ìš”í•©ë‹ˆë‹¤. 
+ì‹œê°„ì´ ì§€ë‚˜ê³  ê²½í—˜ì¹˜ê°€ ìŒ“ì´ë©´ ê·¸ ì„¤ëª…ë“¤ì€ ë ˆê³ ë¸”ëŸ­ì„ ì¡°ë¦½í•˜ë“¯ì´ ë‹¤ì‹œ ì¡°ë¦½ë˜ê³ , 
+ìƒˆë¡œì´ ì´í•´í•˜ê²Œ ë©ë‹ˆë‹¤. ì´ ê´€ì ì—ì„œ ì´ ë¬¸ì„œë„ ì§€ì†ì ìœ¼ë¡œ Update ê³„íšì´ ìžˆìŠµë‹ˆë‹¤.
+
+ê°ìˆ˜ : íŒ¨ìŠ¤íŠ¸ìº í¼ìŠ¤ ì•ˆë“œë¡œì´ë“œ ìŠ¤ì¿¨ ê³ ëˆí˜¸ë‹˜
+[http://veryworks.com/2016/](http://veryworks.com/2016/)
+
+Copyright by Minsik, Kim (Referenced Opentutorials, Orentec)
 	
 ----------- 
 #### Release Note
 <i></i>Version      |<i></i>Release Date
 --------------------|----------------------------------------------------------------- 
 Ver 1.0             |2016.11.22
+Ver 1.1             |2016.12.05 (Cover Page Update)
